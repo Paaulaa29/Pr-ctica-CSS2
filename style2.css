@@ -10,3 +10,42 @@ p{
 img{
     float: right;
 }
+* {
+    margin:0;
+    padding:0;
+  }
+  
+ body {
+    background-image:url(./fondo1pagina2.jpg);
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  #cabecera{
+    text-align: center;
+    color: blue;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #pie {
+    color:blue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    clear:both;
+  }
+  
+  .tiposdecasa{
+    color: aliceblue;
+    width: 940px;
+    float: left;
+    margin: 10px;
+    padding: 0px;
+  }
+  
+  ul {
+    display: inline;
+    padding: 5px;
+  }
