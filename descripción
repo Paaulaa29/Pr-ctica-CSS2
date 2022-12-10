@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Descrpción</title>
+</head>
+
+<body>
+    <a href="Venta de casas.html"></a>
+    <div id="cabecera">
+        <ul>
+            <li>Descripción</li>
+        </ul>
+    </div>
+
+    <div class="descripción">
+        <p>
+            Bienvenidos, para ver más información por favor haga clic en el botón donde le mostraremos más información
+            sobre
+            casas que podrían interesarle
+        </p>
+    </div>
+    <div id="pie">
+        <p>Trabajo realizado por Paula, Guillermo , Alexandru y Ainhoa</p>
+    </div>
+</body>
+
+</html>
