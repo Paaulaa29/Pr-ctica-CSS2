@@ -33,3 +33,38 @@
   a {
     margin: 10%; 
   }
+#contenedor
+  {
+    width:100%;
+    border:1px solid #000;
+    line-height:130%;
+    background-color:#f2f2f2; 
+  }
+  #cabecera2
+  {
+    padding:10px;
+    color:#fff;
+    background-color:brown;
+    clear:left;
+  }
+  #sección1
+  {
+    color: #f2f2f2;
+    float:left;
+    width:200px;
+    margin:0;
+    padding:1rem;
+  }
+  #sección2
+  {
+    color: #f2f2f2;
+    margin-left:210px;
+    border-left:1px solid gainsboro;
+    padding:1rem;
+  }
+  #pie2 {
+    padding:10px;
+    color:#fff;
+    background-color:brown;
+    clear:left;
+  }
