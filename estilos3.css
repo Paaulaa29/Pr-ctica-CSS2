@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  
+  body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkblue;
+  }
+  
+  #cabecera{
+    text-align: center;
+    color: aqua;
+    background-color:black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #pie {
+    text-align: center;
+    color: aliceblue;
+    padding: 20%;
+    margin: 10px;
+  }
+  
+  .descripción{
+    text-align: center;
+    color: aliceblue;
+    width: 91%;
+    margin: 1%;
+  }
+  a {
+    margin: 10%; 
+  }
