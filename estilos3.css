@@ -73,5 +73,11 @@
     padding:10px;
     color:#fff;
     background-color:brown;
-    clear:left;
   }
+ h2~p{
+    color:#f00;
+  }
+  h1+p{
+    color:#f00;
+  }
+  
