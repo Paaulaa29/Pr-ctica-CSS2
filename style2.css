@@ -52,3 +52,6 @@ ul {
   display: inline;
   padding: 5px;
 }
+a[target]{
+    color:#f00;
+  }
