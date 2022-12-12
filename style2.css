@@ -83,3 +83,14 @@ a[target]{
     text-align:center;
     padding:0.5rem;
   }
+
+  #contenedor1 {
+    display: flex;
+    background-color: #ddd;
+  }
+  
+  #contenedor1 div {
+    border:1px solid black;
+    padding:1rem;
+  }
+  
