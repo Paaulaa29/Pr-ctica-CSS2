@@ -94,3 +94,9 @@ a[target]{
     padding:1rem;
   }
   
+  p::first-letter {
+    font-size: 200%;
+    color:black;
+  }
+
+  
