@@ -1,83 +1,87 @@
 * {
-    margin:0;
-    padding:0;
-  }
-  
-  body {
-    width: 80%;
-    margin: 0 auto;
-    background-color: darkblue;
-  }
-  
-  #cabecera{
-    text-align: center;
-    color: aqua;
-    background-color:black;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  #pie {
-    text-align: center;
-    color: aliceblue;
-    padding: 20%;
-    margin: 10px;
-  }
-  
-  .descripción{
-    text-align: center;
-    color: aliceblue;
-    width: 91%;
-    margin: 1%;
-  }
-  a {
-    margin: 10%; 
-  }
- h2~p{
-    color:#f00;
-  }
-  h1+p{
-    color:#f00;
-  }
-  
-#contenedor
-  {
-    width:100%;
-    border:1px solid #000;
-    line-height:130%;
-    background-color:#f2f2f2; 
-  }
-  #cabecera2
-  {
-    padding:10px;
-    color:#fff;
-    background-color:brown;
-    clear:left;
-  }
-  #sección1
-  {
-    color: #f2f2f2;
-    float:left;
-    width:200px;
-    margin:0;
-    padding:1rem;
-  }
-  #sección2
-  {
-    color: #f2f2f2;
-    margin-left:210px;
-    border-left:1px solid gainsboro;
-    padding:1rem;
-  }
-  #pie2 {
-    padding:10px;
-    color:#fff;
-    background-color:brown;
-  }
- h2~p{
-    color:#f00;
-  }
-  h1+p{
-    color:#f00;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: darkblue;
+}
+
+#cabecera {
+  text-align: center;
+  color: aqua;
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pie {
+  text-align: center;
+  color: aliceblue;
+  padding: 20%;
+  margin: 10px;
+}
+
+.descripción {
+  text-align: center;
+  color: aliceblue;
+  width: 91%;
+  margin: 1%;
+}
+
+a {
+  margin: 10%;
+}
+
+h2~p {
+  color: #f00;
+}
+
+h1+p {
+  color: #f00;
+}
+
+#contenedor {
+  width: 100%;
+  border: 1px solid #000;
+  line-height: 130%;
+  background-color: #f2f2f2;
+}
+
+#cabecera2 {
+  padding: 10px;
+  color: #fff;
+  background-color: brown;
+  clear: left;
+}
+
+#sección1 {
+  color: #f2f2f2;
+  float: left;
+  width: 200px;
+  margin: 0;
+  padding: 1rem;
+}
+
+#sección2 {
+  color: #f2f2f2;
+  margin-left: 210px;
+  border-left: 1px solid gainsboro;
+  padding: 1rem;
+}
+
+#pie2 {
+  padding: 10px;
+  color: #fff;
+  background-color: brown;
+}
+
+h2~p {
+  color: #f00;
+}
+
+h1+p {
+  color: #f00;
+}
