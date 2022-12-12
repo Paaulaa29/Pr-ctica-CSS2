@@ -55,3 +55,31 @@ ul {
 a[target]{
     color:#f00;
   }
+
+  
+  tr:nth-child(1) {
+    background-color:rgb(251, 255, 0);
+  }
+  
+  tr:nth-child(2) {
+    background-color:green;
+  }
+  tr:nth-child(3) {
+    background-color:green;
+  }
+
+  tr:nth-child(4) {
+    background-color:green;
+  }
+
+  table {
+      border-collapse: collapse;
+      width:80%;
+      margin:0 auto;
+  }
+  
+  td {
+    border: 1px solid #000;
+    text-align:center;
+    padding:0.5rem;
+  }
