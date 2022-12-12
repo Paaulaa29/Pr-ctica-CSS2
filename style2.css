@@ -1,12 +1,12 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 h1,em {
   text-align: center;
   color: brown;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p {
@@ -19,11 +19,11 @@ img {
 }
 
 body {
-  background-image:url(./fondo1pagina2.jpg);
+  background-image: url(./fondo1pagina2.jpg);
   width: 960px;
   margin: 0 auto;
-  }
-  
+}
+
 #cabecera {
   text-align: center;
   color: blue;
@@ -31,15 +31,15 @@ body {
   padding: 10px;
   margin: 10px;
 }
-  
+
 #pie {
-  color:blue;
+  color: blue;
   text-align: center;
   padding: 10px;
   margin: 10px;
-  clear:both;
+  clear: both;
 }
-  
+
 .tiposdecasa {
   color: aliceblue;
   width: 940px;
@@ -47,11 +47,50 @@ body {
   margin: 10px;
   padding: 0px;
 }
- 
+
 ul {
   display: inline;
   padding: 5px;
 }
-a[target]{
-    color:#f00;
-  }
+
+a[target] {
+  color: #f00;
+}
+
+tr:nth-child(1) {
+  background-color: rgb(251, 255, 0);
+}
+
+tr:nth-child(2) {
+  background-color: green;
+}
+
+tr:nth-child(3) {
+  background-color: green;
+}
+
+tr:nth-child(4) {
+  background-color: green;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#contenedor1 {
+  display: flex;
+  background-color: #ddd;
+}
+
+#contenedor1 div {
+  border: 1px solid black;
+  padding: 1rem;
+}
