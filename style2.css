@@ -101,3 +101,10 @@ td {
   padding: 0.5rem;
 }
 
+ul li:first-child {
+  color:rgb(0, 253, 13);
+}
+
+ul li:last-child {
+  color:rgb(255, 0, 0);
+}
