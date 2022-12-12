@@ -1,0 +1,51 @@
+h1,em{
+    text-align: center;
+    color: brown;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    float: right;
+}
+* {
+    margin:0;
+    padding:0;
+  }
+  
+ body {
+    background-image:url(./fondo1pagina2.jpg);
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  #cabecera{
+    text-align: center;
+    color: blue;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #pie {
+    color:blue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    clear:both;
+  }
+  
+  .tiposdecasa{
+    color: aliceblue;
+    width: 940px;
+    float: left;
+    margin: 10px;
+    padding: 0px;
+  }
+  
+  ul {
+    display: inline;
+    padding: 5px;
+  }
