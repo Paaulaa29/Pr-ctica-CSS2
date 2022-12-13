@@ -169,6 +169,5 @@ button:hover {
 }
 
 .box:empty {
-  background: lime; 
-  text-decoration-color: darkorange;
+  background: lime;
 }
