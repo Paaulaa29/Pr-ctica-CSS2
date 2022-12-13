@@ -1,11 +1,21 @@
 body{
     background-image:url(./fondo2.jpg);
 }
-div{
+#DivIndex{
     text-align:center;
     margin: 250px;
 }
 img{
     align-items:center;
     margin: 25px;
+}
+.FlexCont {
+    display: flex;
+    background-color: blue;
+    height: 100px;
+}
+.FlexCont div {
+    background-color: aqua;
+    margin: 5px;
+    width: 40px;
 }
