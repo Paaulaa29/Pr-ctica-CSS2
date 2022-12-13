@@ -132,3 +132,31 @@ a:active{
   background-color:#d0ff00;
   color:#ff00ea;
 }
+.DivBoton {
+  text-align: center;
+  padding: 2em;
+}
+.BotonCasas {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  text-align: center;
+  background-color: rgb(218, 153, 153);
+}
+div a:link {
+  background-color: transparent;
+  color: black;
+}
+
+div a {
+  text-decoration: none;
+}
+div button {
+  text-decoration: none;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+button:hover {
+  background-color: rgba(192, 250, 233, 0.76);
+}
