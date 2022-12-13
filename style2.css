@@ -134,3 +134,13 @@ a:active{
   background-color:#d0ff00;
   color:#ff00ea;
 }
+
+.box {
+  background: red;
+  height: 40px;
+  width: 500px;
+}
+
+.box:empty {
+  background: lime;
+}
