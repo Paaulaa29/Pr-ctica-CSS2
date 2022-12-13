@@ -162,3 +162,12 @@ div button {
 button:hover {
   background-color: rgba(192, 250, 233, 0.76);
 }
+.box {
+  background: red;
+  height: 40px;
+  width: 500px;
+}
+
+.box:empty {
+  background: lime;
+}
