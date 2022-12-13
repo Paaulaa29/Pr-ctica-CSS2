@@ -77,11 +77,3 @@ h1+p {
   color: #fff;
   background-color: brown;
 }
-
-h2~p {
-  color: #f00;
-}
-
-h1+p {
-  color: #f00;
-}
