@@ -9,3 +9,6 @@ img{
     align-items:center;
     margin: 25px;
 }
+{
+    flex-flow: row; 
+}
