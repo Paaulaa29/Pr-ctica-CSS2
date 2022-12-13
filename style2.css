@@ -118,11 +118,11 @@ ul li:last-child {
 
 a:link{
   background-color:#00ff00;
-  color:#ff0000;
+  color:#000000;
 }
 a:visited{
   background-color:#08fc00;
-  color:#000000;
+  color:#ff0000;
 }
 a:hover{
   background-color:#ff0000;
