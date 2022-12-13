@@ -139,6 +139,7 @@ a:active{
   background: red;
   height: 40px;
   width: 500px;
+  border-color: rgb(0, 0, 0);
 }
 
 .box:empty {
