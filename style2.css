@@ -171,4 +171,5 @@ button:hover {
 
 .box:empty {
   background: lime;
+  border-color:#000
 }
