@@ -41,6 +41,7 @@ h1 {
     background-position:center;
     background-repeat:no-repeat;
     align-self: flex-start;
+    flex-grow: 1;
 }
 #IMG3 {
     background-image: url(https://cdn.pixabay.com/photo/2018/09/22/14/15/house-3695356_960_720.jpg);
@@ -85,6 +86,7 @@ h1 {
     background-position:center;
     background-repeat:no-repeat;
     align-self: flex-start;
+    flex-grow: 1;
 }
 #item3 {
     order: 0;
