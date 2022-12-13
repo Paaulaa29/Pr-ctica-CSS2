@@ -42,6 +42,7 @@ h1 {
     background-repeat:no-repeat;
     align-self: flex-start;
     flex-grow: 1;
+    flex-basis: 40%;
 }
 #IMG3 {
     background-image: url(https://cdn.pixabay.com/photo/2018/09/22/14/15/house-3695356_960_720.jpg);
@@ -87,6 +88,7 @@ h1 {
     background-repeat:no-repeat;
     align-self: flex-start;
     flex-grow: 1;
+    flex-basis: 40%;
 }
 #item3 {
     order: 0;
@@ -94,4 +96,49 @@ h1 {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    flex-shrink: 0;
+}
+#contenedor3 {
+    background-color: rgba(19, 16, 46, 0.171);
+    padding: 10px;
+    margin-top: .5em;
+}
+.FlexCont3 {
+    display: flex;
+    height: 250px;
+    margin-left: 10em;
+    margin-right: 10em;
+    align-items: center;
+    justify-content: center;
+}
+.FlexCont3 div {
+    background-color: rgba(0, 255, 255, 0.452);
+    width: 31%;
+    height: 90%;
+    margin: .1em;
+}
+#item4 {  
+    order: 2;
+    background-image: url(https://cdn.pixabay.com/photo/2013/02/18/17/40/pensacola-82825_960_720.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#item5 {
+    order: 1;
+    background-image: url(https://images.pexels.com/photos/2468773/pexels-photo-2468773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#item6 {
+    order: 0;
+    background-image: url(https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    flex-shrink: 0;
 }
