@@ -166,10 +166,8 @@ button:hover {
   background: red;
   height: 40px;
   width: 500px;
-  border-color: rgb(0, 0, 0);
 }
 
 .box:empty {
   background: lime;
-  border-color:#000
 }
