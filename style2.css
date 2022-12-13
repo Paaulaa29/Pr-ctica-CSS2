@@ -166,6 +166,7 @@ button:hover {
   background: red;
   height: 40px;
   width: 500px;
+  text-decoration-color: darkorange;
 }
 
 .box:empty {
