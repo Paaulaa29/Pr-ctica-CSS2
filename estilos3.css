@@ -77,6 +77,3 @@ h1+p {
   color: #fff;
   background-color: brown;
 }
-h1{
-  flex-grow: inherit;
-}
