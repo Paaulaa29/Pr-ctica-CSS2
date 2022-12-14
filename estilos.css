@@ -1,11 +1,144 @@
 body{
-    background-image:url(./fondo2.jpg);
+    background-color: rgb(210, 205, 255);
 }
-div{
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 25px;
+    text-decoration: underline;
+}
+#DivIndex{
     text-align:center;
     margin: 250px;
 }
-img{
+.DivIndex img{
     align-items:center;
     margin: 25px;
+}
+.FlexCont {
+    display: flex;
+    height: 250px;
+    margin-left: 10em;
+    margin-right: 10em;
+    align-items: center;
+    justify-content: center;
+}
+.FlexCont div {
+    background-color: rgba(0, 255, 255, 0.452);
+    width: 31%;
+    height: 90%;
+    margin: .1em;
+}
+#IMG1 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/26/12/15/dutch-architecture-4970308_960_720.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#IMG2 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/08/13/44/rush-3208686_960_720.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#IMG3 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/22/14/15/house-3695356_960_720.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#FondoFotos {
+    background-color: rgba(19, 16, 46, 0.171);
+    padding: 10px;
+}
+#contenedor2 {
+    background-color: rgba(19, 16, 46, 0.171);
+    padding: 10px;
+    margin-top: .5em;
+}
+.FlexCont2 {
+    display: flex;
+    height: 250px;
+    margin-left: 10em;
+    margin-right: 10em;
+    align-items: center;
+    justify-content: center;
+}
+.FlexCont2 div {
+    background-color: rgba(0, 255, 255, 0.452);
+    width: 31%;
+    height: 90%;
+    margin: .1em;
+}
+#item1 {  
+    order: 2;
+    background-image: url(https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#item2 {
+    order: 1;
+    background-image: url(https://images.pexels.com/photos/8134750/pexels-photo-8134750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#item3 {
+    order: 0;
+    background-image: url(https://images.pexels.com/photos/3209049/pexels-photo-3209049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    flex-shrink: 0;
+}
+#contenedor3 {
+    background-color: rgba(19, 16, 46, 0.171);
+    padding: 10px;
+    margin-top: .5em;
+}
+.FlexCont3 {
+    display: flex;
+    height: 250px;
+    margin-left: 10em;
+    margin-right: 10em;
+    align-items: center;
+    justify-content: center;
+}
+.FlexCont3 div {
+    background-color: rgba(0, 255, 255, 0.452);
+    width: 31%;
+    height: 90%;
+    margin: .1em;
+}
+#item4 {  
+    order: 2;
+    background-image: url(https://cdn.pixabay.com/photo/2013/02/18/17/40/pensacola-82825_960_720.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#item5 {
+    order: 1;
+    background-image: url(https://images.pexels.com/photos/2468773/pexels-photo-2468773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+#item6 {
+    order: 0;
+    background-image: url(https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    flex-shrink: 0;
 }
